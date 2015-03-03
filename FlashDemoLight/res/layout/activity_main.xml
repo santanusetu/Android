@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_one"
+    tools:context=".MainActivity" >
+ 
+    <LinearLayout
+        android:id="@+id/llDateTime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Showing date..."
+            android:textColor="#66FF33"
+            android:textSize="18sp"/>
+        <DigitalClock
+            android:id="@+id/dcDigClock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="DigitalClock"
+            android:textSize="60sp" 
+            android:textColor="#66FF33"
+           />
+
+        </LinearLayout>>
+    <ImageButton
+        android:id="@+id/ibSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:src="@drawable/btn_switch_on"
+        android:background="@null"
+        android:contentDescription="@null"
+         /> 
+           
+      <ImageView
+          android:id="@+id/ivVol"
+          android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/ibSwitch"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/vol_on"
+        android:layout_marginTop="410dp"/>   
+       
+      <ImageView
+          android:id="@+id/ivClock"
+          android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ivVol"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/hourglass_new"
+        android:layout_marginTop="410dp"/> 
+        
+      <ImageView
+          android:id="@+id/ivGlobe"
+          android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ibSwitch"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/globe"
+        android:layout_marginTop="410dp"/> 
+      <!-- <ImageView
+          android:id="@+id/ivSto"
+          android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/ibSwitch"
+        android:paddingRight="10dp"
+        android:background="@drawable/vol_on"
+        android:layout_marginTop="180dp"/>  -->  
+</RelativeLayout>
