@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    android:padding="5dp" 
+    >
+
+    
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignParentRight="true"
+        android:text="WTF"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="WTF"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView4"
+        android:contentDescription="@drawable/android_logo_red"
+        android:src="@drawable/android_logo_red" />
+
+    <TextView
+        android:id="@+id/tvteam1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginLeft="5dp"
+        android:text="dsfsdfsafasfdsafadfd"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView5"
+        android:contentDescription="@drawable/android_logo_yellow"
+        android:src="@drawable/android_logo_yellow" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/verses"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+           android:shadowColor="#ff0000"
+           android:shadowDx="0.5"
+           android:shadowDy="0.5"
+           android:shadowRadius="1.0" />
+
+  
+
+    <TextView
+        android:id="@+id/tvteam2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvteam1"
+        android:layout_alignParentRight="true"
+        android:text="dgdgfdgd"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

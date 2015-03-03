@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">World Cup Cricket</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="team1"></string>
+    <string name="team2"></string>
+    <string name="city_name"></string>
+    <string name="ground_name"></string>
+    <string name="indian_time"></string>
+    <string name="city_title">City:</string>
+    <string name="ground_title">Ground:</string>
+     <string name="day_title">Day:</string>
+    <string name="indian_time_title">Time:</string>
+    <string name="btn_text_live_score">Live Score</string>
+    <string name="btn_text_live_tv">Live TV</string>
+    <string name="match_count"></string>
+    <string name="final_text">finals</string>
+    <string name="match_date"></string>
+    <string name="btn_live_tv_text">Live TV</string>
+     <string name="verses">VS</string>
+     <string name="worldcup">ICC Cricket World Cup 2015</string>
+     
+      <string name="title_activity_cricket_details">CricketDetailsActivity</string>
+    <string name="title_activity_webview">WebViewActivity</string>
+    
+</resources>

@@ -1,0 +1,250 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <RelativeLayout
+        android:id="@+id/learheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/header_background" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/worldcup"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/learheader"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:weightSum="10" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.5"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <ImageView
+                android:id="@+id/ivteam1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@drawable/android_logo_red"
+                android:src="@drawable/android_logo_red" />
+
+            <TextView
+                android:id="@+id/tvteam1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/team1"
+                android:textColor="#FF0000"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_verses"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="@string/verses"
+            android:textColor="#000099"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.5"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <ImageView
+                android:id="@+id/ivteam2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@drawable/android_logo_red"
+                android:src="@drawable/android_logo_green" />
+
+            <TextView
+                android:id="@+id/tvteam2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/team2"
+                android:textColor="#FF0000"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/viewhorizontalline"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:id="@+id/linear_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewhorizontalline"
+        android:padding="8dp"
+        android:weightSum="4" >
+
+        <TextView
+            android:id="@+id/tvcitytitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/city_title"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvcity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="left"
+            android:text="@string/city_name"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_ground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_city"
+        android:padding="6dp"
+        android:weightSum="4" >
+
+        <TextView
+            android:id="@+id/tvgrundtitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/ground_title"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvground"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="left"
+            android:text="@string/ground_name"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_ground"
+        android:padding="6dp"
+        android:weightSum="4" >
+
+        <TextView
+            android:id="@+id/dayTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/day_title"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvday"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text=" "
+            android:textSize="17sp" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/linear_indian_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_day"
+        android:padding="6dp"
+        android:weightSum="4" >
+
+        <TextView
+            android:id="@+id/tvindiantimetitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/indian_time_title"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvindiantime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/indian_time"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_live_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linear_indian_time"
+        android:layout_marginTop="10dp"
+        android:onClick="liveScore"
+        android:text="@string/btn_text_live_score" />
+
+   <!--  <Button
+        android:id="@+id/btn_live_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btn_live_score"
+        android:onClick="liveTV"
+        android:text="@string/btn_live_tv_text" /> -->
+
+    <!--
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id" >
+    </com.google.android.gms.ads.AdView>
+    -->
+
+</RelativeLayout>
