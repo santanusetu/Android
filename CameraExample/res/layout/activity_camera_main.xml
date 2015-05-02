@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".CameraPhotoCapture" 
+    android:background="@drawable/shapedemo">
+
+    <Button
+        android:id="@+id/bPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Capture Photo..." />
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:textColor="@android:color/white"
+        android:textStyle="bold|italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bPhoto"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Click on the button to capture image..."
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvImageDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMessage"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp" />
+
+    <ImageView
+        android:id="@+id/ivShowImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvImageDetails"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" 
+        />
+
+</RelativeLayout>
