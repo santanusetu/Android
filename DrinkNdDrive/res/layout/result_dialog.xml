@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@xml/rounded_rect"
+     >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+          <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <ImageView 
+             android:id="@+id/ivLaw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/wine3"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:singleLine="false"
+            android:text="My Custom Message"
+            android:textStyle="bold"
+             />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center|bottom" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Find a Cab"
+             android:textStyle="bold" />
+   <Button
+            android:id="@+id/button2"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+             android:text="Call a Friend"
+             android:textStyle="bold"
+             android:layout_marginLeft="10dp"
+            />
+ <Button
+            android:id="@+id/button3"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+             android:text="OK"
+             android:textStyle="bold"
+             android:layout_gravity="center"
+            android:visibility="gone"/>
+       
+    </LinearLayout>
+
+</LinearLayout>
