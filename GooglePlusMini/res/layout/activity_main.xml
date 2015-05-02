@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.santanu.sjsu.android.googleplusmini.MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_bg">
+
+    <TextView
+        android:id="@+id/nameDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Google Plus Mini" 
+        android:textSize="22sp"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+    
+     <TextView
+         android:id="@+id/token_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="18sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"/>
+     
+    <Button
+        android:id="@+id/button_token"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Refresh Token - get my Data"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/buttondisplay"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+</LinearLayout>

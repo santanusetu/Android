@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Santanu/Desktop/CMPE 277 Smartphone Application/Lab/Lab2/gpm_jarfolder/google-api-client-1.18.0-rc.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Santanu/Desktop/CMPE 277 Smartphone Application/Lab/Lab2/gpm_jarfolder/google-api-client-jackson2-1.19.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Santanu/Desktop/CMPE 277 Smartphone Application/Lab/Lab2/gpm_jarfolder/google-api-services-plusDomains-v1-rev117-1.19.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Santanu/Desktop/CMPE 277 Smartphone Application/Lab/Lab2/gpm_jarfolder/google-http-client-1.18.0-rc.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Santanu/Desktop/CMPE 277 Smartphone Application/Lab/Lab2/gpm_jarfolder/google-http-client-jackson-1.18.0-rc.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Santanu/Desktop/CMPE 277 Smartphone Application/Lab/Lab2/gpm_jarfolder/google-oauth-client-1.16.0-rc-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Santanu/Desktop/CMPE 277 Smartphone Application/Lab/Lab2/gpm_jarfolder/google-oauth-client-1.18.0-rc.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Santanu/Desktop/CMPE 277 Smartphone Application/Lab/Lab2/gpm_jarfolder/httpclient-4.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Santanu/Desktop/CMPE 277 Smartphone Application/Lab/Lab2/gpm_jarfolder/httpcore-4.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Santanu/Desktop/CMPE 277 Smartphone Application/Lab/Lab2/gpm_jarfolder/jackson-core-2.1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Santanu/Desktop/CMPE 277 Smartphone Application/Lab/Lab2/gpm_jarfolder/jackson-core-asl-1.9.11.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
