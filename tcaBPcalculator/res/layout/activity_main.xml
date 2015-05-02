@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.santanu.chak.tcabpcalculator.MainActivity" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you ..."
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp" />
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:layout_margin="5dp"
+        android:paddingTop="5dp">
+        
+     <Button
+         android:id="@+id/btBattingSecond" 
+         android:layout_width="40dp"
+         android:layout_height="wrap_content"
+         android:textSize="16sp"
+         android:textStyle="italic"
+         android:text="Batting Second"
+         android:layout_weight="48"/>   
+     
+     <Button 
+         android:id="@+id/btBowlingSecond"
+         android:layout_width="40dp"
+         android:layout_height="wrap_content"
+         android:textSize="16sp"
+         android:textStyle="italic"
+         android:text="Bowling Second"
+         android:layout_marginLeft="10dp"
+         android:layout_weight="48"/>
+</LinearLayout>
+</LinearLayout>

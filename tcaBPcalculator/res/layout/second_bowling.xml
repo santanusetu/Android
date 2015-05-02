@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:layout_margin="5dp"
+        android:paddingTop="5dp">
+        
+     <TextView
+         android:id="@+id/tvEnterTarget" 
+         android:layout_width="40dp"
+         android:layout_height="wrap_content"
+         android:textSize="16sp"
+         android:textStyle="italic"
+         android:text="Enter the Target"
+         android:layout_weight="48"/>   
+     
+     <EditText
+         android:id="@+id/etTarget"
+         android:layout_width="40dp"
+         android:layout_height="wrap_content"
+         android:inputType="number"
+         android:textSize="16sp"
+         android:textStyle="italic"
+         android:layout_marginLeft="10dp"
+         android:layout_weight="48"/>
+</LinearLayout>
+
+  <Button
+         android:id="@+id/btSubmitTarget" 
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:textSize="16sp"
+         android:textStyle="italic"
+         android:text="Display Equtions"
+        />  
+        
+  <LinearLayout
+      android:id="@+id/llCalcu"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:visibility="invisible">
+   
+      <TextView 
+        android:id="@+id/tvOppRR"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="14sp"
+        android:text="Opponent Run Rate is "
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"/>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Bonus points for Wins"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginBottom="2dp"
+        android:gravity="center"/>
+    
+    <TextView 
+        android:id="@+id/tvWinBp1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="14sp"
+        android:text="To get bonus point 1 win in "
+        />
+    
+    <TextView 
+        android:id="@+id/tvWinBp2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="14sp"
+        android:text="To get bonus point 2 win in "
+        />
+    
+    <TextView 
+        android:id="@+id/tvWinBp4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="14sp"
+        android:text="To get bonus point 4 win in "
+        android:layout_marginBottom="20dp"
+       />
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Bonus points in Loss"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginBottom="2dp"
+        android:gravity="center"/>
+    
+     <TextView 
+        android:id="@+id/tvLossBp1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="14sp"
+        android:text="To get bonus point 1 score "
+        />
+    
+    <TextView 
+        android:id="@+id/tvLossBp2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="14sp"
+        android:text="To get bonus point 2 score "
+        />
+    
+    <TextView 
+        android:id="@+id/tvLossBp4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textSize="14sp"
+        android:text="To get bonus point 4 score "
+        android:layout_marginBottom="20dp"
+       />
+    </LinearLayout>
+</LinearLayout>
