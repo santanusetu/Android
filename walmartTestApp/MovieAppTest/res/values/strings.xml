@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MovieAppTest</string>
+    <string name="hello_world"> </string>
+    <string name="action_settings">Settings</string>
+
+    <string name="appname">The Movie App</string>
+    
+    <string name="upcoming_movies">Upcoming Movies</string>
+    <string name="in_theaters">In Theaters</string>
+    
+    <string name="intheaters_title">In Theaters</string>
+    <string name="upcomingmovies_title">Upcoming Movies</string>
+    <string name="intheaters_title_details">In Theaters Movie Details</string>
+    <string name="upcomingmovies_details">Upcoming Movies Details</string>
+    <string name="cast_details">"Cast  : "</string>
+    <string name="actor_name">Natalia Portman</string>
+    <string name="date_left">"Date : "</string>
+    <string name="date_details">" 05/05/2015 "</string>
+    <string name="ratings_left">"Ratings : "</string>
+    <string name="rating_details">" 90%"</string>
+    <string name="audience_score_left">"Audience Score : "</string>
+    <string name="story_left">Story :</string>
+    <string name="synopsis_details">This is a story about a protagonist defeating an antagonist</string>
+    <string name="movie_name">I am Big Bard</string>
+    <string name="release_date">date</string>
+    <string name="title_sample">Medium Text</string>
+    <string name="date">TextView</string>
+    <string name="slidebar_title">The Movie App</string>
+    <string name="row_title">Medium Text</string>
+</resources>

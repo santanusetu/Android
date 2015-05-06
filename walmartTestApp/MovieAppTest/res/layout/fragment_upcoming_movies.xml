@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+   <!--  <TextView
+        android:id="@+id/tvFragmentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="@string/upcoming_movies"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/black" /> -->
+
+    <ListView
+        android:id="@+id/list_upcoming_movies"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tvFragmentName"
+        android:layout_marginTop="16dp"
+        android:numColumns="3" >
+    </ListView>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp" >
+
+  <!--   <ImageView
+        android:id="@+id/iv_image_inthr"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/in_theatre" /> -->
+        
+  <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/iv_image_inthr"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/in_theatre" />
+
+    <TextView
+        android:id="@+id/tv_title_inthr"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@id/iv_image_inthr"
+        android:gravity="center"
+        android:singleLine="true"
+        android:layout_alignTop="@+id/iv_image_inthr"
+        android:layout_centerHorizontal="true"
+        android:text="@string/movie_name"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tv_date_inthr"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_toRightOf="@id/iv_image_inthr"
+        android:layout_alignBottom="@+id/iv_image_inthr"
+        android:layout_marginBottom="5dp"
+        android:textStyle="italic"
+        android:text="@string/release_date" />
+
+</RelativeLayout>
